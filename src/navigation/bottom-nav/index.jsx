@@ -46,8 +46,8 @@ const BottomNav = () => {
             const IconComponent = focused ? RouteConfig.focusedIcon : RouteConfig.unfocusedIcon
             return <IconComponent {...IconProps(ms(28))} fill={color} /> 
         },
-        tabBarActiveTintColor: "#0163d2",
-        tabBarInactiveTintColor: "black",
+        tabBarActiveTintColor: "#383838",
+        tabBarInactiveTintColor: "#71726fdb",
         tabBarLabelStyle: {
             fontFamily: Fonts.Font_600,
             fontSize: ms(15),

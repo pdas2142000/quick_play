@@ -1,11 +1,12 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, ScrollView } from 'react-native';
+import Layout from '../../components/layout';
 
 const VideoScreen = () => {
     return (
-        <View>
-            <Text>HomeScreen</Text>
-        </View>
+        <Layout>
+            <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, laboriosam.</Text>
+        </Layout>
     );
 }
 

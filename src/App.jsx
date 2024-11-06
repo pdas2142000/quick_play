@@ -7,6 +7,7 @@ import { NavigationContainer } from '@react-navigation/native';
 const App = () => {
 
     return (
+        <>
         <GestureHandlerRootView>
             <PortalProvider>
                 <NavigationContainer>
@@ -14,6 +15,7 @@ const App = () => {
                 </NavigationContainer>
             </PortalProvider>
         </GestureHandlerRootView>
+        </>
     );
 }
 

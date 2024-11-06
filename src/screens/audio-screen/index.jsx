@@ -1,11 +1,12 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import Layout from '../../components/layout';
 
 const AudioScreen = () => {
     return (
-        <View>
-            <Text>AudioScreen</Text>
-        </View>
+        <Layout>
+            <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, laboriosam.</Text>
+        </Layout>
     );
 }
 

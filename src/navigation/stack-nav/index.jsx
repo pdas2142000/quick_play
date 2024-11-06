@@ -8,6 +8,7 @@ import { PortalHost } from '@gorhom/portal'
 /** Components */
 import BottomNav from '../bottom-nav'
 import SplashScreen from '../../screens/splash-screen'
+import { StatusBar } from 'react-native'
 
 /** Screen */
 
