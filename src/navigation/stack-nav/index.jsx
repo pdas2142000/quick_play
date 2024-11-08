@@ -8,10 +8,8 @@ import { PortalHost } from '@gorhom/portal'
 /** Components */
 import BottomNav from '../bottom-nav'
 import SplashScreen from '../../screens/splash-screen'
-import { StatusBar } from 'react-native'
 
 /** Screen */
-
 
 const Stack = createNativeStackNavigator()
 
@@ -37,7 +35,7 @@ export const AppNavigation = () => {
     useEffect(() => {
         setTimeout(() => {
             SetLoading(false)
-        }, 1000)
+        }, 2500)
     }, [])
 
     if (Loading) {

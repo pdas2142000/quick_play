@@ -1,11 +1,15 @@
 import React from 'react';
-import { View, Text, StyleSheet, StatusBar } from 'react-native';
+import { View, StyleSheet,ScrollView,} from 'react-native';
 import { ms } from '../../utils/helpers/metrics';
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
     return (
         <View style={styles.qp_layout_screen}>
-            {children}
+            <ScrollView showsVerticalScrollIndicator={true} >
+                <View style={styles.qp_layout_content}>
+                    {children}
+                </View>
+            </ScrollView>
         </View>
     );
 }
@@ -13,9 +17,11 @@ const Layout = ({children}) => {
 export default Layout;
 
 const styles = StyleSheet.create({
-    qp_layout_screen:{
-        paddingHorizontal:ms(15),
-        flex:1,
-        backgroundColor:"#f9f9fa"
+    qp_layout_screen: {
+        backgroundColor: "#f9f9fa",
+        flex: 1,
+    },
+    qp_layout_content:{
+        paddingHorizontal: ms(15),
     }
 });

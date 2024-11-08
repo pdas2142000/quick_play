@@ -5,7 +5,7 @@ import Layout from '../../components/layout';
 const VideoScreen = () => {
     return (
         <Layout>
-            <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, laboriosam.</Text>
+            <Text>fasdf</Text>
         </Layout>
     );
 }

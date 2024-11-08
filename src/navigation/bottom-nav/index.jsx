@@ -19,6 +19,7 @@ import MusicInActive from "../../../assets/svgs/inactive_music.svg"
 import { Fonts } from '../../utils/styles'
 import { ms } from '../../utils/helpers/metrics'
 import { IconProps } from '../../utils/helpers/Iconprops'
+import SplashScreen from '../../screens/splash-screen'
 
 const Tab = createBottomTabNavigator()
 
@@ -51,11 +52,8 @@ const BottomNav = () => {
         tabBarLabelStyle: {
             fontFamily: Fonts.Font_600,
             fontSize: ms(15),
-            paddingBottom: ms(5),
-            marginTop:ms(-9)
         },
         tabBarStyle: {
-            height: ms(65),
             paddingTop: 0
         },
         headerShown: false,
@@ -67,7 +65,7 @@ const BottomNav = () => {
             behavior={Platform.OS === "android" ? 'height' : undefined}
             keyboardVerticalOffset={Platform.OS === 'android' ? -50 : 0}
         >
-            <SafeAreaView/>
+            <SafeAreaView style={{backgroundColor:"white"}}/>
             <Tab.Navigator screenOptions={ScreenOptions}  >
                 {
                     TabConfig?.map(config => (
