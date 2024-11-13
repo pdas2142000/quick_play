@@ -16,7 +16,7 @@ import MusicActive from "../../../assets/svgs/active_music.svg"
 import MusicInActive from "../../../assets/svgs/inactive_music.svg"
 
 /** Local Imports */
-import { Fonts } from '../../utils/styles'
+import { Colors, Fonts } from '../../utils/styles'
 import { ms } from '../../utils/helpers/metrics'
 import { IconProps } from '../../utils/helpers/Iconprops'
 import SplashScreen from '../../screens/splash-screen'
@@ -47,8 +47,8 @@ const BottomNav = () => {
             const IconComponent = focused ? RouteConfig.focusedIcon : RouteConfig.unfocusedIcon
             return <IconComponent {...IconProps(ms(28))} fill={color} /> 
         },
-        tabBarActiveTintColor: "#383838",
-        tabBarInactiveTintColor: "#71726fdb",
+        tabBarActiveTintColor: Colors.qp_primary_dark,
+        tabBarInactiveTintColor: Colors.qp_primary_gray,
         tabBarLabelStyle: {
             fontFamily: Fonts.Font_600,
             fontSize: ms(15),

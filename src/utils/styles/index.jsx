@@ -8,3 +8,9 @@ export const Fonts = {
     Font_700: 'Urbanist-Bold',
     Font_800: 'Urbanist-Black',
 }
+
+export const Colors = {
+    qp_primary_dark:"#383838",
+    qp_primary_gray:"#71726fdb",
+
+}

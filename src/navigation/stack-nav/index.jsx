@@ -26,8 +26,6 @@ const MainStack = () => {
     )
 }
 
-
-
 export const AppNavigation = () => {
 
     const [Loading, SetLoading] = useState(true)
@@ -35,7 +33,7 @@ export const AppNavigation = () => {
     useEffect(() => {
         setTimeout(() => {
             SetLoading(false)
-        }, 2500)
+        }, 2800)
     }, [])
 
     if (Loading) {
