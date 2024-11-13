@@ -19,7 +19,6 @@ import MusicInActive from "../../../assets/svgs/inactive_music.svg"
 import { Colors, Fonts } from '../../utils/styles'
 import { ms } from '../../utils/helpers/metrics'
 import { IconProps } from '../../utils/helpers/Iconprops'
-import SplashScreen from '../../screens/splash-screen'
 
 const Tab = createBottomTabNavigator()
 

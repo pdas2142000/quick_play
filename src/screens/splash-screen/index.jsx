@@ -1,15 +1,27 @@
+/** React Imports */
 import React from 'react';
-import { View, Text, StyleSheet, Image, ActivityIndicator } from 'react-native';
-import { ms } from '../../utils/helpers/metrics';
+import { View, StyleSheet, Image } from 'react-native';
 
+/** Local Imports */
+import { ms } from '../../utils/helpers/metrics';
+import { Colors } from '../../utils/styles';
+
+/** Libraries */
+import { WaveIndicator } from 'react-native-indicators'
+
+/** Main Export */
 const SplashScreen = () => {
     return (
         <View style={styles.qp_container}>
             <View style={styles.qp_image_box}>
                 <Image style={styles.qp_img} source={require("../../../assets/image/quick_play_logo.png")} />
             </View>
-            <View style={{marginLeft:ms(20)}}>
-                <ActivityIndicator size="small" />
+            <View style={{ marginLeft: ms(20), height: 60 }}>
+                <WaveIndicator
+                    color={Colors.qp_primary_dark}
+                    count={3}
+                    size={35}
+                />
             </View>
         </View>
     );

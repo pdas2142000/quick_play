@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-indicators/src/components/wave-indicator/index.js b/node_modules/react-native-indicators/src/components/wave-indicator/index.js
+index 2de37d5..4a4927c 100644
+--- a/node_modules/react-native-indicators/src/components/wave-indicator/index.js
++++ b/node_modules/react-native-indicators/src/components/wave-indicator/index.js
+@@ -64,7 +64,7 @@ export default class WaveIndicator extends PureComponent {
+     };
+ 
+     return (
+-      <Animated.View style={styles.layer} {...{ key: index }}>
++      <Animated.View style={styles.layer}  key={index}>
+         <Animated.View style={waveStyle} />
+       </Animated.View>
+     );
