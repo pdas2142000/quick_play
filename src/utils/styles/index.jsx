@@ -14,4 +14,5 @@ export const Colors = {
     qp_primary_gray:"#71726fdb",
     qp_white:"white",
     qp_background:"#f9f9fa",
+    qp_lignt_sky:"#f6f6fd"
 }

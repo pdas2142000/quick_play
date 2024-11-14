@@ -22,8 +22,8 @@ const AudioScreen = () => {
     return (
         <Layout>
             {
-                quick_play.video_data.map((item, index) => {
-                    const isLastItem = index === quick_play.video_data.length - 1
+                quick_play.audio_data.map((item, index) => {
+                    const isLastItem = index === quick_play.audio_data.length - 1
                     return (
                         <View key={index}>
                             <BannerList
@@ -42,10 +42,9 @@ const AudioScreen = () => {
             <ActionSheet
                 {...{
                     BottomSheetRef:SheetRef,
-                    SheetPoint:"45%"
+                    SheetPoint:"55%"
                 }}
             />
-            
         </Layout>
     )
 }

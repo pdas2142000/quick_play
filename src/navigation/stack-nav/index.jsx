@@ -17,7 +17,7 @@ const MainStack = () => {
     return (
         <Stack.Navigator
             screenOptions={{
-                headerShown: false
+                headerShown: false,
             }}
             initialRouteName='login'
         >

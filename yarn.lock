@@ -2237,6 +2237,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native-community/slider@npm:^4.5.5":
+  version: 4.5.5
+  resolution: "@react-native-community/slider@npm:4.5.5"
+  checksum: 8d818e7f505694269bf8009c8c5db89efc3e9bb56054a1835613b6d7431356370bef9ce23d269519163097fe506e3f5420b34ba2c553bf380d1f144277a11942
+  languageName: node
+  linkType: hard
+
 "@react-native/assets-registry@npm:0.76.1":
   version: 0.76.1
   resolution: "@react-native/assets-registry@npm:0.76.1"
@@ -8542,6 +8549,7 @@ __metadata:
     "@react-native-community/cli": 15.0.0
     "@react-native-community/cli-platform-android": 15.0.0
     "@react-native-community/cli-platform-ios": 15.0.0
+    "@react-native-community/slider": ^4.5.5
     "@react-native/babel-preset": 0.76.1
     "@react-native/eslint-config": 0.76.1
     "@react-native/metro-config": 0.76.1
@@ -8565,6 +8573,7 @@ __metadata:
     react-native-reanimated: ^3.16.1
     react-native-safe-area-context: ^4.14.0
     react-native-screens: ^3.35.0
+    react-native-sound-player: ^0.14.3
     react-native-svg: ^15.8.0
     react-native-svg-transformer: ^1.5.0
     react-native-toast-message: ^2.2.1
@@ -8717,6 +8726,13 @@ __metadata:
     react: "*"
     react-native: "*"
   checksum: cb8a0c8d8a41a8a1065cc2253e4272a970366a7d80bc54e889b2f48de7ccccd3e828e2701de39c0453a67956ec0cad140fb506324cce04419b5e2eb495c038c2
+  languageName: node
+  linkType: hard
+
+"react-native-sound-player@npm:^0.14.3":
+  version: 0.14.3
+  resolution: "react-native-sound-player@npm:0.14.3"
+  checksum: ab71b1d57d120645571cd188505bc37056da839aaf643db0b873eecddff9b52887dd56f0f361ec1402d62b6169d96d3d83f4242af47b04b3e8e3217da68cff10
   languageName: node
   linkType: hard
 
