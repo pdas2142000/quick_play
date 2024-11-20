@@ -21,6 +21,7 @@
     "react": "18.3.1",
     "react-native": "0.76.1",
     "react-native-asset": "^2.1.1",
+    "react-native-awesome-slider": "^2.5.6",
     "react-native-device-info": "^14.0.0",
     "react-native-gesture-handler": "^2.20.2",
     "react-native-indicators": "^0.17.0",

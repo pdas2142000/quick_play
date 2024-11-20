@@ -8567,6 +8567,7 @@ __metadata:
     react: 18.3.1
     react-native: 0.76.1
     react-native-asset: ^2.1.1
+    react-native-awesome-slider: ^2.5.6
     react-native-device-info: ^14.0.0
     react-native-gesture-handler: ^2.20.2
     react-native-indicators: ^0.17.0
@@ -8647,6 +8648,18 @@ __metadata:
   bin:
     react-native-asset: lib/cli.js
   checksum: 6c7dcc0b359b14e46de9872bceadfc1fdd68174787a1243ea53285577dcba7a028fd19a89be3e1ecbbc30817ec38c2ebb822d4d57d096d724c56e0ef9c61d587
+  languageName: node
+  linkType: hard
+
+"react-native-awesome-slider@npm:^2.5.6":
+  version: 2.5.6
+  resolution: "react-native-awesome-slider@npm:2.5.6"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+    react-native-gesture-handler: ">=2.0.0"
+    react-native-reanimated: ">=3.0.0"
+  checksum: ce67b0215aca1f116e0dababb64645446b97cb2a2acc894dd4edca7ffdfc63c10212bdbb6e986adc114549812e066c135edebfc9d8ea089556562a5bdb46684c
   languageName: node
   linkType: hard
 
