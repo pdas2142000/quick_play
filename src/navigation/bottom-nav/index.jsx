@@ -19,6 +19,7 @@ import MusicInActive from "../../../assets/svgs/inactive_music.svg"
 import { Colors, Fonts } from '../../utils/styles'
 import { ms } from '../../utils/helpers/metrics'
 import { IconProps } from '../../utils/helpers/Iconprops'
+import NotificationScreen from '../../screens/test-screen'
 
 const Tab = createBottomTabNavigator()
 
@@ -53,7 +54,8 @@ const BottomNav = () => {
             fontSize: ms(15),
         },
         tabBarStyle: {
-            paddingTop: 0
+            paddingTop: 0,
+            position: 'absolute',
         },
         headerShown: false,
     })

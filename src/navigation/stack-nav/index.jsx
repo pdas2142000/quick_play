@@ -8,6 +8,7 @@ import { PortalHost } from '@gorhom/portal'
 /** Components */
 import BottomNav from '../bottom-nav'
 import SplashScreen from '../../screens/splash-screen'
+import ViewScreen from '../../screens/video-screen/view-screen'
 
 /** Screen */
 
@@ -22,6 +23,7 @@ const MainStack = () => {
             initialRouteName='login'
         >
             <Stack.Screen name='home' component={BottomNav} />
+            <Stack.Screen name='viewscreen' component={ViewScreen} />
         </Stack.Navigator>
     )
 }
